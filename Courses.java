@@ -17,14 +17,14 @@ public class Courses {
    public double get_course_average(){
     double sum = 0.0;
     int num = 0;
-        for(Student s: students){
-            sum += s.get_grades(this.course_name);
-            num++;
-        }
+    for(Student s: students){
+        sum += s.get_grades(this.course_name);
+        num++;
+    }
     if(num != 0){
         return sum/num;
     }
-    return 0.0;
+    return 1.0;
    }
    public void add_student(Student s){
     students.add(s);
