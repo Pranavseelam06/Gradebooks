@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-import java.util.List;
 import java.util.HashMap;
 import java.util.Random;
 
@@ -11,7 +9,7 @@ public class Student {
     public Student (String n){
         name = n;
         Random random = new Random();
-        int id = random.nextInt(1001);  
+        id = random.nextInt(1001);  
         grades = new HashMap<>();
     }
     public Student (String n , int nextIds){
@@ -24,14 +22,14 @@ public class Student {
         return id;
     }
     
-    public HashMap get_grades(){
+    public HashMap<String, Double> get_grades(){
         return grades;
     }
     public Double get_grades(String course){
-        return grades.get(course);
+        return grades.get(course.toLowerCase());
     }
     public void add_grades(String name, Double updated_grade){
-        grades.put(name, updated_grade);
+        grades.put(name.toLowerCase(), updated_grade);
     }
     public String details(){
        return name + ", " + id + ", " + get_grades();
