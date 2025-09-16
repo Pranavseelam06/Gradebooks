@@ -1,0 +1,28 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Main",
+      "projectName": "Gradebook-Java_510bfe76"
+    },
+    {
+      "type": "java",
+      "name": "MainApp",
+      "request": "launch",
+      "mainClass": "MainApp",
+      "projectName": "Gradebook-Java_510bfe76",
+      "vmArgs": "--module-path /Users/pranavseelam/Documents/javafx-sdk-21.0.8/lib --add-modules javafx.controls,javafx.fxml"
+    },
+    {
+      "type": "java",
+      "name": "Run JavaFX App",
+      "request": "launch",
+      "mainClass": "MainApp",
+      "projectName": "Gradebook-Java",
+      "vmArgs": "--module-path /Users/pranavseelam/Documents/javafx-sdk-21.0.8/lib --add-modules javafx.controls,javafx.fxml"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+    "java.project.sourcePaths": [
+        "src"
+    ],
+    "java.project.referencedLibraries": [
+        "/Users/pranavseelam/Documents/Gradebook-Java/lib/javafx-swt.jar",
+        "/Users/pranavseelam/Documents/Gradebook-Java/lib/javafx.web.jar",
+        "/Users/pranavseelam/Documents/Gradebook-Java/lib/javafx.controls.jar",
+        "/Users/pranavseelam/Documents/Gradebook-Java/lib/javafx.base.jar",
+        "/Users/pranavseelam/Documents/Gradebook-Java/lib/jdk.jsobject.jar",
+        "/Users/pranavseelam/Documents/Gradebook-Java/lib/javafx.media.jar",
+        "/Users/pranavseelam/Documents/Gradebook-Java/lib/jfx.incubator.richtext.jar",
+        "/Users/pranavseelam/Documents/Gradebook-Java/lib/jfx.incubator.input.jar",
+        "/Users/pranavseelam/Documents/Gradebook-Java/lib/javafx.graphics.jar",
+        "/Users/pranavseelam/Documents/Gradebook-Java/lib/javafx.swing.jar",
+        "/Users/pranavseelam/Documents/Gradebook-Java/lib/javafx.fxml.jar"
+    ]
+}
